@@ -22,7 +22,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
+  display: inline-block;
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
 .studio-upper{
   color: #2e2f42;
@@ -72,6 +74,7 @@ font-family: 'Roboto', serif;
   background-color: #2e2f42;
   text-align: center;
   letter-spacing: 0.02em;
+  padding: 188px 0;
 }
 .title-one{
   font-size: 56px;
@@ -110,6 +113,8 @@ body {
   margin-right: auto;
   padding: 16px 32px;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
 }
 .order-button:hover, 
 .order-button:focus {
@@ -134,6 +139,7 @@ body {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -145,6 +151,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-repr {
   background-color: white;
@@ -158,8 +165,7 @@ body {
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
 }
 .team-position {
@@ -211,6 +217,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding: 32px 0 8px 16px;
+  margin-bottom: 8px;
   
 }
 .portfolio-descr {
@@ -267,6 +274,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-page {
   display: flex;
@@ -284,6 +292,9 @@ img {
   padding-left: 156px;
   padding-right: 76px;
 }
+.advantages {
+  padding: 120px 0;
+}
 .advantages-list {
   display: flex;
   gap: 24px;
@@ -292,7 +303,7 @@ img {
   padding-left: auto;
   padding-right: auto;
   text-align: justify;
-  width: calc((100%-72px)/4);
+  
 
 }
 .advantages-title {
@@ -301,6 +312,7 @@ img {
 }
 .advantages-list-item {
   width: 264px;
+  width: calc((100%-72px)/4);
    
 }
 .section {
@@ -319,7 +331,12 @@ img {
   gap: 24px;
   padding-bottom: 120px;
    }
-
+.team-text {
+  padding: 32px 0;
+}
+.portfolio {
+  padding: 120px 0 120px 0;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -332,6 +349,7 @@ img {
   border-right: 1px solid #E7E9FC;
   border-bottom: 1px solid #E7E9FC;
   border-left: 1px solid #E7E9FC;
+  padding: 32px 16px;
 }
 .portfolio-descr {
   padding: 0 0 32px 16px;
