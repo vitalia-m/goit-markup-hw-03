@@ -24,7 +24,7 @@
   color: #4d5ae5;
   display: inline-block;
   margin-right: 76px;
-  margin-bottom: 16px;
+  
 }
 .studio-upper{
   color: #2e2f42;
@@ -41,7 +41,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .menu:hover,
@@ -55,8 +54,7 @@ color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   display: block;
 }
 .contacts:hover,
@@ -68,7 +66,7 @@ ul{
 }
 
 .main-title {
-font-family: 'Roboto', serif;
+  font-family: 'Roboto', serif;
   font-weight: 700;
   font-style: normal;
   font-size: 56px;
@@ -83,10 +81,11 @@ font-family: 'Roboto', serif;
   font-size: 56px;
   line-height: 1,07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
+  padding-bottom: 48px;
   text-align: center;
   max-width: 496px;
   margin: 0 auto;
+
 }
 a {
   text-decoration: none;
@@ -106,18 +105,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  
 }
 .order-button {
   cursor: pointer;
   border: none;
-  margin-bottom: 188px;
-  margin-top: 48px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   display: block;
   min-width: 169px;
+  
 }
 .order-button:hover, 
 .order-button:focus {
@@ -277,12 +275,12 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  
 }
 .nav-page {
   display: flex;
    align-items: center;
-   padding: 24px 0;
+  
 }
 .contact-list {
   display: flex;
