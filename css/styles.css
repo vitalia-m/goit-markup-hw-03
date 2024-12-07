@@ -47,6 +47,9 @@
 {
 color: #404bbf;
 }
+.contact-list {
+  padding: 24px 0;
+}
 .contacts{
   color: #434455;
   font-size: 16px;
@@ -279,6 +282,7 @@ img {
 .nav-page {
   display: flex;
    align-items: center;
+   padding: 24px 0;
 }
 .contact-list {
   display: flex;
