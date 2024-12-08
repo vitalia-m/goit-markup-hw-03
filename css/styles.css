@@ -197,7 +197,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 0 0 72px 0;
+  margin-bottom: 72px;
   
 }
 .team-repr {
@@ -260,7 +260,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+
   
   
   
