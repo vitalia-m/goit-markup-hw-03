@@ -306,9 +306,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-top: 16px;
   display: block;
   
+}
+.footer .logo 
+{
+  margin-bottom: 16px;
 }
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
