@@ -170,13 +170,9 @@ body {
 .advantages-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
   padding-left: auto;
   padding-right: auto;
   text-align: justify;
-  
-
 }
 .advantages-title {
   margin-bottom: 8px;
@@ -201,9 +197,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
-   padding-top: 120px;
-  padding-bottom: 72px;
+  padding: 0 0 72px 0;
+  
 }
 .team-repr {
   background-color: white;
@@ -234,7 +229,7 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  
    }
 .team-text {
   padding: 32px 0;
