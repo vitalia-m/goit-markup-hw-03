@@ -204,6 +204,7 @@ body {
   background-color: white;
     width: 264px;
   border-radius: 0px 0px 4px 4px;
+  
 }
 .team-name {
   font-family: 'Roboto';
@@ -229,11 +230,10 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  
    }
-.team-text {
-  padding: 32px 0;
-}
+   .team-text {
+    padding-top: 32px;
+   }
 .portfolio{
   color: #2e2f42;
   padding: 120px 0 120px 0;
@@ -261,10 +261,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-
-  
-  
-  
+ 
 }
 .portfolio-descr {
   color: #434455;
